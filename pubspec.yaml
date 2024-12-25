@@ -1,0 +1,61 @@
+name: toplukz
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+  http: ^1.2.2
+  web: ^1.1.0
+  hover_menu: ^1.1.1
+  font_awesome_flutter: ^10.8.0
+  url_launcher: ^6.3.1
+
+
+
+  cupertino_icons: ^1.0.8
+  mailer: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - asset/
+#    - asset/man.jpg
+#    - asset/mwoman.jpg
+#    - asset/braids.jpg
+#    - asset/blackwoman.jpg
+#    - asset/blackhair.jpg
+#    - asset/nails2.jpg
+#    - asset/download.jpg
+#    - asset/nails.jpg
+
+
+
+fonts:
+  - family: Open Sans
+    fonts:
+      - asset: assets/fonts/OpenSans-ExtraBold.ttf
+        weight: 800
+      - asset: assets/fonts/OpenSans-Regular.ttf
+        weight: 400
